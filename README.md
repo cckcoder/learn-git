@@ -27,4 +27,22 @@ when you in the project
 * `git add -h`
 * `git commit -h`
 
-# Git BAsics
+# Git Basics
+* `git status`
+* `git add <filename>`
+    Example:
+    * `git add README.md`
+
+* git status short hand
+    * `git status -s`
+
+## Viewing your staged and Unstaged Change
+* git diff `git diff`
+    git diff use it most often to answer these two question
+    * What have you changed but not yet staged?
+    * What have you staged that you are about to commit?
+    * Note! `git diff` by itself doesn't show all changes mad since
+    your last commit only changes that are still unstaged.
+
+* `git diff --staged`
+    This command compares your staged changes to your last commit
