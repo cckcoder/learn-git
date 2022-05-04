@@ -46,3 +46,10 @@ when you in the project
 
 * `git diff --staged`
     This command compares your staged changes to your last commit
+
+## Commit
+* you can commit and use favorite editor to write down the commit by
+    * `git commit`
+* Or short hand
+    * `git commit -m "<commit message>"`
+
