@@ -65,3 +65,6 @@ area. This is particularly useful if you forgot to add something to your
 `.gitignore`
 
 * `git rm --cached <filename>`
+
+## Move or Rename
+* `git mv <file_from> <file_to>`
