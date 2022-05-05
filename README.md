@@ -56,3 +56,12 @@ when you in the project
 ## Skipping staging area
 If you want to skiping staging area, Git provide a simple shortcut
 * `git commit -a -m "<commit message>"`
+
+## Remove
+* `git rm <filename>`
+
+If you want to keep the file in working tree, but remove it from your staging
+area. This is particularly useful if you forgot to add something to your
+`.gitignore`
+
+* `git rm --cached <filename>`
