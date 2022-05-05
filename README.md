@@ -53,3 +53,6 @@ when you in the project
 * Or short hand
     * `git commit -m "<commit message>"`
 
+## Skipping staging area
+If you want to skiping staging area, Git provide a simple shortcut
+* `git commit -a -m "<commit message>"`
