@@ -74,3 +74,12 @@ area. This is particularly useful if you forgot to add something to your
 * `git log -p -2` see git log detail with limit 2 commit
 * `git log --stat` see git log some abbreviated stats for each commit
 * `git log --pretty=oneline` see list of log 
+* `git log --pretty=format"%h %s"`
+* `git log --pretty=format"%h %s" --graph`
+
+## Limiting Log Output
+* since and until are very useful
+    * `git log --since=1.weeks`
+    * `git log --since="24 hours ago"`
+    * `git log --since="2022-06-04"`
+    * `git log --since="1 day 5 minutes ago"`
