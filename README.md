@@ -83,3 +83,22 @@ area. This is particularly useful if you forgot to add something to your
     * `git log --since="24 hours ago"`
     * `git log --since="2022-06-04"`
     * `git log --since="1 day 5 minutes ago"`
+
+## Undoing Things
+### Git Amend
+situation: forget to add some files, or you mess up your commit message.
+If you want to redo that commit, make additional changes you forgot,
+stage them, and commit again using the `--amend` option:
+```bash
+$git commit --amend
+```
+As an example: you commit and then realize you forgot to stage the changes in a file 
+you can do something like this:
+
+```bash
+$ git commit -m "initial commit"
+$ git add forgotten_file.txt
+$ git commit --amend
+```
+==IMPORTANT== only amend commits that are still ==local== and 
+have not been pushed somewhere
